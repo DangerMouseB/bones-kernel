@@ -12,9 +12,9 @@ setup(
   packages = [
     'bones_kernel',
   ],
-  version = 'v0.1.2',
-  license='Apache 2.0',
-  description = 'A pure python ipython kernel for developing ideas around bones',
+  version = 'v0.1.3',
+  license='BSD',
+  description = 'Pure python ipython kernel for developing ideas around bones',
   long_description_content_type='text/markdown',
   long_description=long_description,
   author = 'David Briant',
@@ -22,14 +22,14 @@ setup(
   url = 'https://github.com/DangerMouseB/bones-kernel',
   download_url = '',
   keywords = ['ipython', 'kernel'],
-  install_requires=['coppertop'],
+  install_requires=['coppertop', 'ipykernel.kernelbase'],
   classifiers=[
     'Development Status :: 4 - Beta',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
     'Intended Audience :: Developers',
     'Intended Audience :: End Users/Desktop',
     'Intended Audience :: Science/Research',
     'Topic :: Utilities',
-    'License :: OSI Approved :: Apache Software License',
+    'License :: OSI Approved :: BSD License',
     'Programming Language :: Python :: 3.8',
   ],
 )
